@@ -66,3 +66,5 @@ def delete_single_framework(name):
 
 if __name__=='__main__':
     app.run(debug=True)
+    #Uncomment the line in case the port number you want to give manually
+    #app.run(debug=True,port=5002)
